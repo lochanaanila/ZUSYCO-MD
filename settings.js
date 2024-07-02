@@ -16,10 +16,10 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94715166712",
-  SUDO_NUMBERS : "94715166712,94719574492",
-  OWNER_NAME: "『 𝙼𝚁 𝙽𝙸𝙼𝙰 』",
-  BOT_NAME : "ＺＵＳＹＣＯ",
+  OWNER_NUMBER: "94763176287",
+  SUDO_NUMBERS : "94763176287,94758315442",
+  OWNER_NAME: "『 hiruwa-status 』",
+  BOT_NAME : "hiruwa",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
     ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
@@ -27,8 +27,8 @@ module.exports = {
     GOODBYE: 'https://i.ibb.co/t8hKpcM/GOODBYE-IMAGE-LOWQ.jpg'
   },
   STOP_SEND : {
-        WELCOME_MESSAGE : false,
-        GOODBYE_MESSAGE : false
+        WELCOME_MESSAGE : true,
+        GOODBYE_MESSAGE : true
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
@@ -50,7 +50,7 @@ module.exports = {
   READ : {
      ALL_MESSAGES : true,
      ONLY_COMMANDS : false,
-     STATUS : false,
+     STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
@@ -78,6 +78,6 @@ module.exports = {
     "agei" : "https://i.ibb.co/yqk8QQ9/agei.webp",
     "ne" : "https://i.ibb.co/N6Wb6mZ/ne.webp",
   },
-  LOAD_ANIMATION : false,
+  LOAD_ANIMATION : true,
  
 };
